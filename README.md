@@ -12,11 +12,11 @@
 
 ## Getting started
 
-`$ npm install react-native-swipe-up-down --save`
+`$ npm install react-native-swipe-up-down-fix --save`
 
 - OR
 
-`$ yarn add react-native-swipe-up-down`
+`$ yarn add react-native-swipe-up-down-fix`
 
 ## Usage
 ```javascript

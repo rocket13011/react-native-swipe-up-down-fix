@@ -1,6 +1,6 @@
 {
-  "name": "react-native-swipe-up-down",
-  "version": "1.0.6",
+  "name": "react-native-swipe-up-down-fix",
+  "version": "1.0.7",
   "description": "Swipe Up Down component",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-vietnam/react-native-swipe-up-down.git"
+    "url": "https://github.com/ShadowMinhja/react-native-swipe-up-down-fix.git"
   },
   "keywords": [
     "react-native",
-    "minhchienwikipedia",
-    "agiletechvn",
+    "ShadowMinhja",        
     "ios",
     "android"
   ],
-  "author": "Duong Minh Chien <minhchienwikipedia@gmail.com> (https://github.com/minhchienwikipedia)",
+  "author": "Minh Nguyen (https://github.com/ShadowMinhja)",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.41.2"
