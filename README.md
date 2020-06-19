@@ -1,8 +1,8 @@
 
-# React Native Swipe Up Down 
+# React Native Swipe Up Down Jeedom
 [![npm version](https://badge.fury.io/js/react-native-swipe-up-down.svg)](https://badge.fury.io/js/react-native-swipe-up-down) ![](https://img.shields.io/github/issues/agiletechvn/react-native-swipe-up-down.svg) ![](https://img.shields.io/github/forks/agiletechvn/react-native-swipe-up-down.svg) ![](https://img.shields.io/github/stars/agiletechvn/react-native-swipe-up-down.svg) ![](https://img.shields.io/github/license/agiletechvn/react-native-swipe-up-down.svg)
 
-[![NPM](https://nodei.co/npm/react-native-swipe-up-down.png?downloads=true&stars=true)](https://nodei.co/npm/react-native-swipe-up-down/)
+[![NPM](https://nodei.co/npm/react-native-swipe-up-down.png?downloads=true&stars=true)](https://nodei.co/npm/react-native-swipe-up-down-jeedom/)
 ## This module support iOS & Android
 ## Demo
 <img src="https://raw.githubusercontent.com/agiletechvn/react-native-swipe-up-down/master/demo.gif" data-canonical-src="./demo.gif" width="300" height="536" />
@@ -12,15 +12,15 @@
 
 ## Getting started
 
-`$ npm install react-native-swipe-up-down-fix --save`
+`$ npm install react-native-swipe-up-down-jeedom --save`
 
 - OR
 
-`$ yarn add react-native-swipe-up-down-fix`
+`$ yarn add react-native-swipe-up-down-jeedom`
 
 ## Usage
 ```javascript
-import SwipeUpDown from 'react-native-swipe-up-down';
+import SwipeUpDown from 'react-native-swipe-up-down-jeedom';
 
 // TODO: What to do with the module?
 <SwipeUpDown		
