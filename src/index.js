@@ -7,7 +7,8 @@ import {
   PanResponder,
   Dimensions,
   LayoutAnimation,
-  TouchableOpacity
+  TouchableOpacity,
+  SafeAreaView
 } from "react-native";
 
 import SwipeIcon from "./components/SwipeIcon";
@@ -51,7 +52,7 @@ export default class SwipeUpDown extends Component<Props> {
     this.showFull = this.showFull.bind(this);
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this._panResponder = PanResponder.create({
       onMoveShouldSetPanResponder: (event, gestureState) => {
         const {dx, dy} = gestureState;
@@ -66,7 +67,7 @@ export default class SwipeUpDown extends Component<Props> {
     });
   }
 
-  componentDidMount() {
+  UNSAFE_componentDidMount() {
     this.props.hasRef && this.props.hasRef(this);
   }
 
@@ -154,7 +155,7 @@ export default class SwipeUpDown extends Component<Props> {
     const { itemMini, itemFull, style } = this.props;
     const { collapsed } = this.state;
     return (
-      <View
+      <SafeAreaView
         ref={ref => (this.viewRef = ref)}
         {...this._panResponder.panHandlers}
         style={[
@@ -184,7 +185,7 @@ export default class SwipeUpDown extends Component<Props> {
         ) : (
           itemFull
         )}
-      </View>
+      </SafeAreaView>
     );
   }
 }
