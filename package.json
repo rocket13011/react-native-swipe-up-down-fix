@@ -1,6 +1,6 @@
 {
-  "name": "react-native-swipe-up-down-fix",
-  "version": "1.0.8",
+  "name": "react-native-swipe-up-down-jeedom",
+  "version": "1.0.9",
   "description": "Swipe Up Down component",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShadowMinhja/react-native-swipe-up-down-fix.git"
+    "url": "https://github.com/rocket13011/react-native-swipe-up-down-jeedom.git"
   },
   "keywords": [
     "react-native",
     "ShadowMinhja",        
     "ios",
-    "android"
+    "android",
+    "jeedom"
   ],
-  "author": "Minh Nguyen (https://github.com/ShadowMinhja)",
+  "author": "alexandre (https://github.com/rocket13011)",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.41.2"
